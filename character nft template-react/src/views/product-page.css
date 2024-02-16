@@ -1,0 +1,815 @@
+.product-page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.product-page-project {
+  gap: 120px;
+  width: 100%;
+  display: flex;
+  max-width: 1440px;
+  align-items: center;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: 160px;
+  background-color: #efacac;
+}
+.product-page-navbar {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 1440px;
+  align-items: center;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.product-page-logo {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+}
+.product-page-desktop-menu {
+  display: flex;
+}
+.product-page-nav {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.product-page-navlink {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.product-page-navlink1 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.product-page-button {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.product-page-btn-group {
+  gap: var(--dl-space-space-fourunits);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.product-page-socials {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.product-page-image {
+  width: 100px;
+  object-fit: cover;
+}
+.product-page-image1 {
+  width: 100px;
+  object-fit: cover;
+}
+.product-page-view {
+  text-decoration: none;
+}
+.product-page-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.product-page-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.product-page-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.product-page-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.product-page-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.product-page-logo1 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+}
+.product-page-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-page-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.product-page-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.product-page-text {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.product-page-text01 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.product-page-text02 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.product-page-text03 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.product-page-text04 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.product-page-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+}
+.product-page-login {
+  margin-right: var(--dl-space-space-twounits);
+}
+.product-page-icon-group {
+  display: flex;
+}
+.product-page-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.product-page-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.product-page-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.product-page-understand {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #efacac;
+}
+.product-page-content {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  max-width: 640px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.product-page-caption {
+  color: rgb(255, 207, 119);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.product-page-heading {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  max-width: 640px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.product-page-header {
+  color: rgb(255, 255, 255);
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.product-page-header1 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  line-height: 27px;
+}
+.product-page-view1 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: left;
+  align-items: center;
+  flex-direction: row;
+}
+.product-page-navlink2 {
+  text-decoration: none;
+}
+.product-page-image2 {
+  width: 25px;
+  object-fit: cover;
+}
+.product-page-image3 {
+  width: 480px;
+  object-fit: cover;
+}
+.product-page-container3 {
+  width: 1036px;
+  height: 609px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/beige%20minimalist%20creative%20agency%20website%20desktop%20prototype%20(1)-700h.png");
+  background-position: center;
+}
+.product-page-text05 {
+  color: rgb(247, 245, 245);
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-container4 {
+  width: 1050px;
+  height: 626px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("/beige%20minimalist%20creative%20agency%20website%20desktop%20prototype%20(2)-700h.png");
+  background-position: center;
+}
+.product-page-text08 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text09 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text10 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text11 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text12 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text13 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text14 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text15 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text16 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text17 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text18 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text19 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text20 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text21 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text22 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text23 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text24 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text25 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text26 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text27 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text28 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text29 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text30 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text31 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text32 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text33 {
+  color: #f9f3f3;
+}
+.product-page-text34 {
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text35 {
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text36 {
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text37 {
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text38 {
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text39 {
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-text40 {
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Merriweather";
+  font-weight: 700;
+}
+.product-page-mining {
+  gap: 130px;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.product-page-footer {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 1440px;
+  align-items: flex-start;
+  padding-top: 120px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
+}
+.product-page-main {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.product-page-branding {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  max-width: 600px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.product-page-heading1 {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.product-page-logo2 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+}
+.product-page-caption1 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  line-height: 27px;
+}
+.product-page-socials1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.product-page-twitter1 {
+  text-decoration: none;
+}
+.product-page-image4 {
+  width: 100px;
+  object-fit: cover;
+}
+.product-page-discord1 {
+  text-decoration: none;
+}
+.product-page-image5 {
+  width: 100px;
+  object-fit: cover;
+}
+.product-page-links {
+  gap: 120px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.product-page-list {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.product-page-heading2 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+.product-page-items {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.product-page-link {
+  color: rgb(255, 255, 255);
+}
+.product-page-link1 {
+  color: rgb(255, 255, 255);
+}
+.product-page-link2 {
+  color: rgb(255, 255, 255);
+}
+.product-page-link3 {
+  color: rgb(255, 255, 255);
+}
+.product-page-list1 {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.product-page-heading3 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+.product-page-items1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.product-page-link4 {
+  color: rgb(255, 255, 255);
+}
+.product-page-link5 {
+  color: rgb(255, 255, 255);
+}
+.product-page-link6 {
+  color: rgb(255, 255, 255);
+}
+.product-page-link7 {
+  color: rgb(255, 255, 255);
+}
+.product-page-link8 {
+  color: rgb(255, 255, 255);
+}
+.product-page-socials2 {
+  gap: var(--dl-space-space-unit);
+  display: none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.product-page-twitter2 {
+  text-decoration: none;
+}
+.product-page-image6 {
+  width: 100px;
+  object-fit: cover;
+}
+.product-page-discord2 {
+  text-decoration: none;
+}
+.product-page-image7 {
+  width: 100px;
+  object-fit: cover;
+}
+.product-page-copyright {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+.product-page-container5 {
+  width: 820px;
+  height: 548px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("/beige%20minimalist%20creative%20agency%20website%20desktop%20prototype%20(1)-700h.png");
+  background-position: center;
+}
+.product-page-text47 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: normal;
+  font-family: "Merriweather";
+  font-weight: 800;
+}
+.product-page-container6 {
+  width: 820px;
+  height: 548px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("/beige%20minimalist%20creative%20agency%20website%20desktop%20prototype%20(1)-700h.png");
+  background-position: center;
+}
+.product-page-text50 {
+  color: #f9f3f3;
+  font-size: 25px;
+  font-style: normal;
+  font-family: "Merriweather";
+  font-weight: 800;
+}
+@media(max-width: 991px) {
+  .product-page-project {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-sixunits);
+  }
+  .product-page-desktop-menu {
+    display: none;
+  }
+  .product-page-btn-group {
+    display: none;
+  }
+  .product-page-burger-menu {
+    display: flex;
+  }
+  .product-page-button1 {
+    display: flex;
+    padding: var(--dl-space-space-unit);
+    flex-direction: row;
+  }
+  .product-page-logo1 {
+    color: #000000;
+  }
+  .product-page-understand {
+    align-items: center;
+    flex-direction: column;
+  }
+  .product-page-mining {
+    flex-direction: column-reverse;
+  }
+}
+@media(max-width: 767px) {
+  .product-page-project {
+    gap: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-sixunits);
+  }
+  .product-page-navbar {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .product-page-understand {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .product-page-content {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .product-page-heading {
+    gap: var(--dl-space-space-unit);
+  }
+  .product-page-header {
+    font-size: 32px;
+    letter-spacing: 0;
+  }
+  .product-page-header1 {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .product-page-view1 {
+    margin-top: var(--dl-space-space-unit);
+  }
+  .product-page-image3 {
+    width: 100%;
+  }
+  .product-page-mining {
+    gap: var(--dl-space-space-fourunits);
+  }
+  .product-page-footer {
+    gap: var(--dl-space-space-oneandhalfunits);
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .product-page-main {
+    gap: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .product-page-heading1 {
+    gap: var(--dl-space-space-unit);
+  }
+  .product-page-logo2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .product-page-caption1 {
+    width: 80%;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .product-page-socials1 {
+    display: none;
+  }
+  .product-page-links {
+    gap: var(--dl-space-space-fourunits);
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .product-page-list {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .product-page-list1 {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .product-page-socials2 {
+    display: flex;
+  }
+}
+@media(max-width: 479px) {
+  .product-page-navbar {
+    padding: var(--dl-space-space-unit);
+  }
+  .product-page-mobile-menu {
+    padding: 16px;
+  }
+}
